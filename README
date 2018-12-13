@@ -1,0 +1,49 @@
+________________________________________
+|        Android Photo Library         |
+________________________________________
+
+This project was the final project of CS213 - Software Methodology at 
+Rutgers University - New Brunswick, taught by Dr. Seshadri Venugopal.
+
+The assignent was to recreate our JavaFX Photo Library Application for
+Android with some modifications.
+
+_____________________
+|        USE        |
+_____________________
+
+
+**Home Screen**
+
+When a user first runs the app, if it is the first run, a stock album 
+will be created, otherwise, the albums from the previous session will 
+appear in a list.
+
+There will be an option to add a new album or search for a photo with
+a photo tag. If a user selects an album, they will also be able to
+delete, edit or display an album.
+
+**Display Album**
+
+When the user selects display on the homescreen, they will be brought
+to the album display page. From here, they will see an option to add
+another photo. If they click on a photo, they will also be given access
+to the copy, paste, move (also known as cut), delete, and open.
+
+**Slideshow View**
+
+If the user selects open from the Display Album screen, they will be 
+brought to the slideshow screen. On this screen, depending on whether
+there are other photos in the album, they may or may not be given next
+and previous photo buttons.
+
+In addition, there will be a list of tags. If there are no tags on the
+photo, they will only have an add tag button; however, if there are tags,
+they will also have a delete tag button.
+
+**Searching For Photos**
+
+From the homescreen, if the user clicks the search button, they will be
+prompt for the information of the tag that they are searching for. After
+traversing all albums, it return a list of all matching photos in the 
+Display Album screen.
